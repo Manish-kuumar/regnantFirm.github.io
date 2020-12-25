@@ -1,0 +1,187 @@
+<html>
+    <head>
+       <title>Regnant Firm</title> 
+       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <meta name="viewport" content="width=device-width,initial-scale=1">
+       
+       
+     <!------fonts------>
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+     
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+     
+     
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap" rel="stylesheet">
+     
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+     
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+       
+    </head>
+<body>
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Regnant Firm</h1>
+            <p>"A Wide Range of Clothings And Accesories At Reasonable Prices And Many More Offer's"</p>
+            
+        </div>
+    </section>
+        
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">MemberShip</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#testimonial">Testimonials</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="images/menu.png" id="menu">
+</div>        
+        
+ <!------------features----------------------->
+
+<section id="feature">
+   <div class="title-text">
+       <p>Get Started Now</p>
+       <h1>Mr. MOUSTACHE</h1>
+   </div> 
+   <div class="feature-box">
+       <div class="cart-row">
+           <div class="cart-col">
+               <img src="images/img1.jpg">
+               <h3>Shirt 1</h3> 
+               <p>description</p>  
+           </div>
+           
+       </div>
+         <div class="cart-row">
+           <div class="cart-col">
+               <img src="images/img2.jpg">
+               <h3>Shirt 2</h3>  
+               <p>description</p>
+           </div>
+       </div>
+       <div class="cart-row">
+           <div class="cart-col">
+               <img src="images/img3.jpg">
+            <h3>Shirt 3</h3> 
+               <p>description</p>                               
+           </div>
+       </div>
+   </div>
+   
+   <div class="feature-box">
+       <div class="cart-row">
+           <div class="cart-col">
+               <img src="images/img4.jpg">
+               <h3>Shirt 4</h3>  
+               <p>description</p>
+           </div>
+       </div>
+         <div class="cart-row">
+           <div class="cart-col">
+               <img src="images/img5.jpg">
+               <h3>Shirt 5</h3> 
+               <p>description</p> 
+           </div>
+       </div>
+       <div class="cart-row">
+           <div class="cart-col">
+               <img src="images/img6.jpg">
+               <h3>Shirt 6</h3>  
+               <p>description</p>
+           </div>
+       </div>
+   </div>
+</section>
+                      
+
+             
+                                           
+                                             
+<!------------------Footer------------>
+<section id="footer">
+  <img src="images/logo.png" class="footer-img">
+   <div class="title-text">
+           <p>Regnant Firm</p>
+           <h1>Visit The Shop Today</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+           <h1>Managed By</h1> 
+           <p>Shashank Singh</p>
+            <p>Tanuj Gupta</p>
+            <h1>Developers</h1> 
+           <p>Manish Kumar</p>
+            <p>Shrish Kumar</p>
+        </div>
+         <div class="footer-right">
+            <h1>Get In Touch</h1> 
+            <p><i class="fa fa-map-marker"></i>  New Subhash Nagar Gali no. D-5 Jwalapur haridwar</p>
+            <p><i class="fa fa-envelope"></i>   email id- regnantfirm2020@gmail.com</p>
+            <p><i class="fa fa-phone"></i>  9999999999</p>
+            
+        </div>
+    </div>
+    
+    <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>Copyright Manish Kumar and Shrish Kumar</p>
+    </div>
+</section>                                                       
+                                                                                     
+                                                                              
+                                                                                     
+                                                                                            
+                                                                                                   
+                                                                                                          
+                                                                                                                        
+        
+        
+<script>
+    var menuBtn=document.getElementById("menuBtn")
+    var sideNav=document.getElementById("sideNav")
+    var menu=document.getElementById("menu")
+    
+    sideNav.style.right="-250px";
+    
+    
+    menuBtn.onclick=function()
+    {
+        if(sideNav.style.right=="-250px")
+            {
+                sideNav.style.right="0";
+                menu.src="images/close.png";
+            }
+        else
+            {
+                sideNav.style.right="-250px";
+                menu.src="images/menu.png";
+            }
+    }
+    
+    
+    // All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>       
+        
+</body>
+</html>
